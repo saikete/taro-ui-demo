@@ -5,7 +5,7 @@ import { View } from '@tarojs/components'
 import './index.scss'
 
 export default class DocsHeader extends Component {
-  render () {
+  render() {
     const { title, desc } = this.props
 
     return (
